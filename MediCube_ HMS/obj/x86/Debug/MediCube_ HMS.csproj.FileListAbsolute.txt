@@ -1,0 +1,48 @@
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Form1.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Doctor.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Employee.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_In_Patient.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Lab.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Out_Patient.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Pharmacy.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.MediCube_Stock.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Out_Patient_Details.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Properties.Resources.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.csproj.GenerateResource.Cache
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\bin\Debug\MediCube_ HMS.exe
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\bin\Debug\MediCube_ HMS.pdb
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.exe
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.pdb
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Doc_Details.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.OutPatient_Bill.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.stockLaboratory.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.stockPharmacy.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.stockTheare.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.medInsert.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Expire_Alerts.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.Stock_Alerts.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.P_Index.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.medView.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.POS.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.Income.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.P_staff.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\bin\Debug\MediCube_ HMS.exe.config
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Nimna.Report.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Mihiri.Home1.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Mihiri.Details.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Mihiri.InBill.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Mihiri.InReports.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Dashboard.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Stock.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Reports.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Test.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Lab_Patient.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.Binura.Summary.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.stockReports.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.outPatienBillReport.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube__HMS.DocdetailsReport.resources
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.csprojResolveAssemblyReference.cache
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\bin\Debug\MediCube_ HMS.exe.manifest
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\bin\Debug\MediCube_ HMS.application
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.exe.manifest
+C:\Users\Hp\Desktop\MediCube_ HMS\MediCube_ HMS\obj\x86\Debug\MediCube_ HMS.application

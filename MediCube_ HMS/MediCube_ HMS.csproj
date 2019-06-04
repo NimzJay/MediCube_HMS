@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71927A9C-5F46-4D68-B9A0-96A142AB4CE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MediCube__HMS</RootNamespace>
+    <AssemblyName>MediCube_ HMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Binura\Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\Lab_Patient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Lab_Patient.Designer.cs">
+      <DependentUpon>Lab_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\Lab_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lab_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Binura\Reports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\Stock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\Test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Binura\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dakshika\stcock_the.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stcock_the.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dakshika\stock_labo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stock_labo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Laleesha\Docde.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Docde.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DocdetailsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocdetailsReport.Designer.cs">
+      <DependentUpon>DocdetailsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laleesha\Doc_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laleesha\Doc_Details.Designer.cs">
+      <DependentUpon>Doc_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediCube_DataSet2.cs">
+      <DependentUpon>MediCube_DataSet2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Medicube_DataSet3.cs">
+      <DependentUpon>Medicube_DataSet3.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Medicube_DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medicube_DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Mihiri\Details.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mihiri\Details.Designer.cs">
+      <DependentUpon>Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mihiri\Home1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mihiri\Home1.Designer.cs">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mihiri\InBill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mihiri\InBill.Designer.cs">
+      <DependentUpon>InBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mihiri\InBill_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InBill_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mihiri\InPatient_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InPatient_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mihiri\InReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mihiri\InReports.Designer.cs">
+      <DependentUpon>InReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\Expire_Alerts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\Expire_Alerts.Designer.cs">
+      <DependentUpon>Expire_Alerts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laleesha\MediCube_Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laleesha\MediCube_Doctor.Designer.cs">
+      <DependentUpon>MediCube_Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shamalki\MediCube_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shamalki\MediCube_Employee.Designer.cs">
+      <DependentUpon>MediCube_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mihiri\MediCube_In_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mihiri\MediCube_In_Patient.Designer.cs">
+      <DependentUpon>MediCube_In_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binura\MediCube_Lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Binura\MediCube_Lab.Designer.cs">
+      <DependentUpon>MediCube_Lab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediCube_DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MediCube_DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="outPatienBillReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="outPatienBillReport.Designer.cs">
+      <DependentUpon>outPatienBillReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pavani\OutpatientBilRe.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OutpatientBilRe.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pavani\MediCube_Out_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavani\MediCube_Out_Patient.Designer.cs">
+      <DependentUpon>MediCube_Out_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\Income.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\Income.Designer.cs">
+      <DependentUpon>Income.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MediCube_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MediCube_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\Medicine_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medicine_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nimna\MediCube_Pharmacy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nimna\MediCube_Pharmacy.Designer.cs">
+      <DependentUpon>MediCube_Pharmacy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dakshika\MediCube_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dakshika\MediCube_Stock.Designer.cs">
+      <DependentUpon>MediCube_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\medInsert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\medInsert.Designer.cs">
+      <DependentUpon>medInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\medView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\medView.Designer.cs">
+      <DependentUpon>medView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\POS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\POS.Designer.cs">
+      <DependentUpon>POS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\P_Index.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\P_Index.Designer.cs">
+      <DependentUpon>P_Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\P_staff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\P_staff.Designer.cs">
+      <DependentUpon>P_staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nimna\Sales_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sales_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Nimna\Stock_Alerts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Nimna\Stock_Alerts.Designer.cs">
+      <DependentUpon>Stock_Alerts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pavani\OutPatient_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavani\OutPatient_Bill.Designer.cs">
+      <DependentUpon>OutPatient_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pavani\Out_Patient_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pavani\Out_Patient_Details.Designer.cs">
+      <DependentUpon>Out_Patient_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Dakshika\stockLaboratory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dakshika\stockLaboratory.Designer.cs">
+      <DependentUpon>stockLaboratory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dakshika\stockPharmacy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dakshika\stockPharmacy.Designer.cs">
+      <DependentUpon>stockPharmacy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dakshika\stockTheare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dakshika\stockTheare.Designer.cs">
+      <DependentUpon>stockTheare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stockReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stockReports.Designer.cs">
+      <DependentUpon>stockReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dakshika\Stock_Pharm_Rpt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Stock_Pharm_Rpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Binura\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Lab_Patient.resx">
+      <DependentUpon>Lab_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Lab_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Lab_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\stcock_the.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>stcock_the.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\stock_labo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>stock_labo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laleesha\Docde.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Docde.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocdetailsReport.resx">
+      <DependentUpon>DocdetailsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laleesha\Doc_Details.resx">
+      <DependentUpon>Doc_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laleesha\MediCube_Doctor.resx">
+      <DependentUpon>MediCube_Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shamalki\MediCube_Employee.resx">
+      <DependentUpon>MediCube_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\Details.resx">
+      <DependentUpon>Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\Home1.resx">
+      <DependentUpon>Home1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\InBill.resx">
+      <DependentUpon>InBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\InBill_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InBill_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\InPatient_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InPatient_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\InReports.resx">
+      <DependentUpon>InReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mihiri\MediCube_In_Patient.resx">
+      <DependentUpon>MediCube_In_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binura\MediCube_Lab.resx">
+      <DependentUpon>MediCube_Lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="outPatienBillReport.resx">
+      <DependentUpon>outPatienBillReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavani\OutpatientBilRe.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OutpatientBilRe.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavani\MediCube_Out_Patient.resx">
+      <DependentUpon>MediCube_Out_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Income.resx">
+      <DependentUpon>Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Medicine_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Medicine_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\MediCube_Pharmacy.resx">
+      <DependentUpon>MediCube_Pharmacy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\MediCube_Stock.resx">
+      <DependentUpon>MediCube_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Expire_Alerts.resx">
+      <DependentUpon>Expire_Alerts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\medInsert.resx">
+      <DependentUpon>medInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\medView.resx">
+      <DependentUpon>medView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\POS.resx">
+      <DependentUpon>POS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\P_Index.resx">
+      <DependentUpon>P_Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\P_staff.resx">
+      <DependentUpon>P_staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Sales_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Sales_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nimna\Stock_Alerts.resx">
+      <DependentUpon>Stock_Alerts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavani\OutPatient_Bill.resx">
+      <DependentUpon>OutPatient_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pavani\Out_Patient_Details.resx">
+      <DependentUpon>Out_Patient_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Dakshika\stockLaboratory.resx">
+      <DependentUpon>stockLaboratory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\stockPharmacy.resx">
+      <DependentUpon>stockPharmacy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\stockTheare.resx">
+      <DependentUpon>stockTheare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stockReports.resx">
+      <DependentUpon>stockReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dakshika\Stock_Pharm_Rpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Stock_Pharm_Rpt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MediCube_DataSet.xsc">
+      <DependentUpon>MediCube_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MediCube_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MediCube_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MediCube_DataSet.xss">
+      <DependentUpon>MediCube_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MediCube_DataSet2.xsc">
+      <DependentUpon>MediCube_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MediCube_DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MediCube_DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="MediCube_DataSet2.xss">
+      <DependentUpon>MediCube_DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Medicube_DataSet3.xsc">
+      <DependentUpon>Medicube_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Medicube_DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Medicube_DataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Medicube_DataSet3.xss">
+      <DependentUpon>Medicube_DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

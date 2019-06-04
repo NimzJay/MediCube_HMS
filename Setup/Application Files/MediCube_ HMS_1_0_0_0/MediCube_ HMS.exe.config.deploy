@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <add name="MediCube__HMS.Properties.Settings.MediCube_DBConnectionString"
+      connectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=&quot;C:\Users\Hp\Desktop\MediCube_ HMS\DB\MediCube_DB.mdf&quot;;Integrated Security=True;Connect Timeout=30;User Instance=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+</configuration>
